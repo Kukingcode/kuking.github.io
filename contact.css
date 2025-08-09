@@ -1,0 +1,11 @@
+
+    
+  /* Navbar Active State */
+nav ul li a.active {
+  color: #ffc35b;
+}
+nav ul li a.active::after {
+  transform: translateX(-50%) scaleX(1);
+  background-color: #ffc35b;
+}
+
